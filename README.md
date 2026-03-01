@@ -15,7 +15,7 @@
 ## Установка
 
 ```bash
-git clone https://github.com/<your-username>/text-analyzer.git
+git clone https://github.com/pexp13/text-analyzer.git
 cd text-analyzer
 
 python -m venv .venv
