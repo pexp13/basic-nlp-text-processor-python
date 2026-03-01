@@ -48,9 +48,9 @@ def run_sentiment_analysis():
             result = classifier(text[:512])[0]
 
             label_map = {
-                "POSITIVE": "😊 Позитивный",
-                "NEGATIVE": "😞 Негативный",
-                "NEUTRAL":  "😐 Нейтральный",
+                "POSITIVE": "Позитивный",
+                "NEGATIVE": "Негативный",
+                "NEUTRAL":  "Нейтральный",
             }
             label = label_map.get(result["label"], result["label"])
             score = round(result["score"] * 100, 1)
